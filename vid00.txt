@@ -1,0 +1,18 @@
+# Video 00 of the series
+
+Things learned:
+
+1. Basics of Vmware (how to create machines and manage resources)
+2. How to clone VMs without Pro version of VMware (find directory where vm files are located and copy the folder, then go to VMware and click OPEN a VM not create a new VM)
+3. Windows server 2022 TUI EDITION!
+
+
+
+
+
+
+
+
+
+
+

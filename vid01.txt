@@ -1,0 +1,20 @@
+# 01 Installing the Domain Controller
+
+
+1. Use 'SConfig' to:
+	change the hostname
+	change the IP Address to static
+	change DNS server to our own IP Address
+
+2. Install the Active Directory Windows Feature
+	"Install-WindowsFeature AD-Domain-Services -IncludeManagementTools"
+
+3. Remote Access to the server
+	"Start-Service WinRM"
+	"set-item /path/to/TrustedHosts -value [IP Address]"
+	"New-PSSession -ComputerName [IP Address] -Credential (Get-Credential)"
+	"Enter-PSSession [IP Address] -Credential (Get-Credential)"
+	
+
+
+
